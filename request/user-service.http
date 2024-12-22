@@ -1,0 +1,11 @@
+### Registration
+POST http://localhost:7001/users/registration
+Content-Type: application/json
+
+{
+  "username": "linh-username",
+  "password": "linh-password",
+  "confirmPassword": "linh-confirmPassword",
+  "fullname": "hoangnhatlinh"
+}
+

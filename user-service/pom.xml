@@ -8,7 +8,7 @@
         <version>3.4.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.linhhn.zync</groupId>
+    <groupId>com.linhhn.zync.user</groupId>
     <artifactId>user-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>user-service</name>
@@ -63,6 +63,12 @@
             <groupId>org.testcontainers</groupId>
             <artifactId>mongodb</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.linhhn.zync.util</groupId>
+            <artifactId>util</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
